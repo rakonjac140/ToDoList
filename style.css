@@ -1,0 +1,66 @@
+.container {
+	max-width: 800px;
+    height: 130px;
+	margin: auto;
+	border: 2px solid brown;
+	background-color: #e4313b;
+	padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+.input {
+    height: auto;
+    width: 75%
+}
+
+.btn {
+    height: auto;
+    width: 25%
+}
+
+.unutar {
+    padding-bottom: 20px;
+}
+
+.textIB {
+    display: flex;
+    height: 40px;
+}
+
+#tabla {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 844px;
+    margin: auto;
+}
+
+#tabla td, #tabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100%;
+  }
+
+#tabla tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabla tr:hover {background-color: #ddd;}
+
+.button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {opacity: 1}
+
